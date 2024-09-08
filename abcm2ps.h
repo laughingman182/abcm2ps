@@ -64,6 +64,7 @@ enum accidentals {
 #endif
 
 #define CM		* 37.8	/* factor to transform cm to pt */
+#define MM		* 3.78	/* factor to transform mm to pt */
 #define PT			/* factor to transform pt to pt */
 #define IN		* 96.0	/* factor to transform inch to pt */
 

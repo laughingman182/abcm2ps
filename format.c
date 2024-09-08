@@ -622,6 +622,8 @@ float scan_u(char *str, int type)
 		}
 		if (!strncasecmp(str, "pt", 2))
 			return a PT;
+		if (!strncasecmp(str, "mm", 2))
+			return type ? a MM : a * 2.835;
 		if (!strncasecmp(str, "cm", 2))
 			return type ? a CM : a * 28.35;
 		if (!strncasecmp(str, "in", 2))
